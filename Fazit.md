@@ -2,7 +2,11 @@
 
 ## Was gelungen ist
 
-Ich fand die Aufgabe mit dem SchereSteinPapier sehr interessant, da die Erweiterarbarkeit vom Spiel herausfordernd ist und es viele Loesungsansaetze gibt. Ich dachte daran, eine HashMap zu benutzen, hab mich dann jedoch dagegen entschieden, da es das ganze Programm viel komplezer machen wuerde. Jetzt habe ich es mit einer ArrayList geloest und jedes Element hat eine Liste mit anderen Elementen, die es besiegen kann. Ich finde diese Loesung ist in Ordnung.
+Ich fand die Aufgabe mit dem SchereSteinPapier sehr interessant, da die Erweiterbarkeit vom Spiel herausfordernd ist und es viele Loesungsansaetze gibt. Ich dachte daran, eine HashMap zu benutzen, hab mich dann jedoch dagegen entschieden, da es das ganze Programm viel komplezer machen wuerde. Jetzt habe ich es mit einer ArrayList geloest und jedes Element hat eine Liste mit anderen Elementen, die es besiegen kann. Ich finde diese Loesung ist in Ordnung.
+
+Die Sudoku Aufgabe fand ich "schwieriger", da ich bei 2D-Arrays manchmal die Dimensionen vertausche und alles. Im Grunde war es jedoch nicht so schwierig von der Logik her.
+
+
 
 Das Klassendiagramm mit den Formen fand ich bisschen komisch und schwierig, Methoden dafuer zu finden, denn die Formen sind ja eigentlich nur Datenklassen und haben keine Funktionalitaet. Deswegen hab ich in den Attributen selber die Formeln eingebaut, da ich nicht finde, dass eine Pyramide eine Methode fuer das Volumen braucht sondern das Volumen gegeben ist nachdem man die Dimensionen eingefuegt hat.
 Eine moegliche Methode waere vielleicht eine Update Methode, um die Dimensionen zu veraendern.
