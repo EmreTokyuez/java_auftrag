@@ -1,21 +1,25 @@
 import java.io.ObjectInputStream.GetField;
 import java.util.HashMap;
 
-public class element {
-    HashMap<String, Boolean> attributes = new HashMap<String, Boolean>();
+import java.util.ArrayList;
+public class Element {
+    ArrayList<String> elementItCanBea =  new ArrayList<String>();
     String name;
 
-    public element(String name) {
+    public Element(String name) {
         this.name = name;
     }
 
-    public void addAttribute(String name, boolean value) {
-        attributes.put(name, value);
+    public void addElementitcanbeat(String element){
+        elementItCanBea.add(element);
     }
 
-    public boolean getElement(String element){
-        return attributes.get(element);
+    public String getName() {
+        return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
     
 }
